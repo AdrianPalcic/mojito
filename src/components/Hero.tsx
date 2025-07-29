@@ -54,7 +54,7 @@ const Hero = () => {
         })
 
         const startValue = isMobile ? 'top 50%' : 'center 60%';
-        const endValue = isMobile ? '120% top' : 'bottom top'
+        const endValue = isMobile ? '250% top' : 'bottom top'
 
         const tl = gsap.timeline({
             scrollTrigger: {
@@ -88,7 +88,7 @@ const Hero = () => {
                             <p className="subtitle"> Sip the Spirit <br /> of Summer</p>
                         </div>
 
-                        <div className="view-cocktails hidden lg:block ">
+                        <div className="view-cocktails">
                             <p className="subtitle">Every cocktail on our menu is a blend of premium ingridients, creative flair, and timeless recipes - designed to delight your senses</p>
                             <a href="#cocktails">View Cocktails</a>
                         </div>
