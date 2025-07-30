@@ -1,4 +1,4 @@
-import gsap from "gsap"
+Iimport gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
@@ -16,7 +16,7 @@ function App() {
   return (
    <main>
     <Navbar />
-    <Hero />
+    <Hero
     <Cocktails />
     <About />
     <Art />
